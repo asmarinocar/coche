@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asmarino Car</title>
+</head>
+<body style="margin:0; font-family: system-ui, sans-serif; background-color:#061933; color:white;">
+  <!-- ====== MENÚ SUPERIOR ====== -->
+  <nav style="display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background-color:#041225;">
+      <div style="font-size:22px; font-weight:bold;">Asmarino Car</div>
+      <div style="display:flex; gap:30px; font-size:15px;">
+        <a href="#Inicio" style="color:white; text-decoration:none; transition: color 0.3s, transform 0.2s;"onmouseover="this.style.color='#1E90FF'; this.style.transform='scale(1.1)';"onmouseout="this.style.color='white'; this.style.transform='scale(1)';">Inicio</a>
+        <a href="#Servicios" style="color:white; text-decoration:none; transition: color 0.3s, transform 0.2s;"onmouseover="this.style.color='#1E90FF'; this.style.transform='scale(1.1)';"onmouseout="this.style.color='white'; this.style.transform='scale(1)';">Servicios</a>
+        <a href="#Contacto" style="color:white; text-decoration:none; transition: color 0.3s, transform 0.2s;"onmouseover="this.style.color='#1E90FF'; this.style.transform='scale(1.1)';"onmouseout="this.style.color='white'; this.style.transform='scale(1)';">Contacto</a>
+      </div>
+  </nav>
+  <!-- ====== CONTENIDO PRINCIPAL ====== -->
+  <section style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; padding:60px 40px; max-width:1200px; margin:auto;" id="Inicio">
+    <!-- Texto izquierda -->
+    <div style="flex:1 1 500px; min-width:300px;">
+      <button style="background-color:#ff3333; color:white; border:none; padding:8px 16px; font-size:14px; border-radius:4px; margin-bottom:20px; cursor:pointer; transition: background-color 0.3s, transform 0.2s;"onmouseover="this.style.backgroundColor='#ff6666'; this.style.transform='scale(1.05)';"onmouseout="this.style.backgroundColor='#ff3333'; this.style.transform='scale(1)';">
+        Expertos en Reparación Automotriz
+      </button>
+      <h1 style="font-size:38px; margin-bottom:20px;">Tu Vehículo en las Mejores Manos</h1>
+      <p style="font-size:16px; line-height:1.6; color:#e0e0e0; margin-bottom:30px;">Calidad, profesionalidad y confianza en cada reparación. Taller mecánico especializado en chapa, pintura y mecánica general en Villava, Navarra.</p>
+      <div style="display:flex; gap:20px; flex-wrap:wrap;">
+        <a href="#Contacto" style="background-color:#ff3333; color:white; padding:10px 20px; border-radius:4px; text-decoration:none; font-weight:bold; cursor:pointer; transition: background-color 0.3s, transform 0.2s;"onmouseover="this.style.backgroundColor='#ff6666'; this.style.transform='scale(1.05)';"onmouseout="this.style.backgroundColor='#ff3333'; this.style.transform='scale(1)';">Solicitar Presupuesto</a>
+        <a href="#Servicios" style="border:2px solid white; color:white; padding:10px 20px; border-radius:4px; text-decoration:none; font-weight:bold; cursor:pointer; transition: background-color 0.3s, color 0.3s, transform 0.2s;"onmouseover="this.style.backgroundColor='white'; this.style.color='#041225'; this.style.transform='scale(1.05)';"onmouseout="this.style.backgroundColor='transparent'; this.style.color='white'; this.style.transform='scale(1)';">Ver Servicios</a>
+      </div>
+    </div>
+    <!-- Imagen derecha -->
+    <div style="flex:1 1 500px; min-width:300px; margin-top:40px;">
+      <img src="Images/BCO.3a454214-e2a3-42f0-ab32-5e569c9b068d.png" alt="Interior del taller" style="width:100%; border-radius:8px;" />
+    </div>
+  </section>
+  <!-- ====== ESTADÍSTICAS ====== -->
+  <section style="display:flex; justify-content:center; gap:60px; padding:40px 20px; background-color:#061933; flex-wrap:wrap;">
+    <div style="text-align:center; cursor:pointer; transition: transform 0.3s, color 0.3s;"onmouseover="this.style.transform='scale(1.1)'; this.style.color='#1E90FF';"onmouseout="this.style.transform='scale(1)'; this.style.color='inherit';">
+      <div style="font-size:24px; font-weight:bold;">5+</div>
+      <div style="font-size:14px; color:#cccccc;">Años de Experiencia</div>
+    </div>
+    <div style="text-align:center; cursor:pointer; transition: transform 0.3s, color 0.3s;"onmouseover="this.style.transform='scale(1.1)'; this.style.color='#1E90FF';"onmouseout="this.style.transform='scale(1)'; this.style.color='inherit';">
+      <div style="font-size:24px; font-weight:bold;">350+</div>
+      <div style="font-size:14px; color:#cccccc;">Vehículos Reparados</div>
+    </div>
+    <div style="text-align:center; cursor:pointer; transition: transform 0.3s, color 0.3s;"onmouseover="this.style.transform='scale(1.1)'; this.style.color='#1E90FF';"onmouseout="this.style.transform='scale(1)'; this.style.color='inherit';">
+      <div style="font-size:24px; font-weight:bold;">100%</div>
+      <div style="font-size:14px; color:#cccccc;">Satisfacción</div>
+    </div>
+  </section>
+  <!-- ====== SERVICIOS ====== -->
+  <section class="services-section" style="padding:100px 20px;background:#020617;background-image:radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);background-size:24px 24px;" id="Servicios">
+    <div class="services-header" style="text-align:center;max-width:800px;margin:0 auto 70px;">
+      <span style="color:#ef4444;font-size:13px;letter-spacing:2px;font-weight:bold;">NUESTROS SERVICIOS</span>
+      <h2 style="font-size:38px;margin:15px 0;">Soluciones completas para tu vehículo</h2>
+      <p style="color:#9ca3af;font-size:15px;line-height:1.6;">Ofrecemos una amplia gama de servicios de mecánica, chapa y pintura con<br>la máxima calidad y profesionalidad</p>
+    </div>
+    <div class="services-grid" style="max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;">
+      <!-- Mecánica General -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">🔧</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Mecánica General</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Reparación y mantenimiento de motor, transmisión, frenos, suspensión y todos los sistemas mecánicos de tu vehículo.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Cambio de aceite</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Frenos y discos</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Distribución</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Embrague</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+      <!-- Diagnosis -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">🔍</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Diagnosis</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Equipos de última generación para detectar cualquier avería electrónica o mecánica con precisión milimétrica.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Lectura de errores</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Análisis de sistemas</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Revisión electrónica</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Informe detallado</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+      <!-- Reparación de Golpes -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">🚗</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Reparación de Golpes</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Reparamos abolladuras, arañazos y daños por impacto devolviendo a tu coche su aspecto original.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Abolladuras</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Arañazos</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Impactos</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Deformaciones</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+      <!-- Chapa y Pintura -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">🎨</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Chapa y Pintura</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Trabajos profesionales de carrocería con acabados de fábrica y materiales de primera calidad.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Reparación chapa</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Soldadura</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Reemplazo piezas</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Acabado perfecto</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+      <!-- Pintura Completa -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">🖌️</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Pintura Completa</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Renovamos completamente el aspecto de tu vehículo con pintura de alta calidad y durabilidad.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Cambio de color</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Restauración</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Pinturas especiales</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Lacado</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+      <!-- Pulido y Restauración -->
+      <div class="service-card" style="background:linear-gradient(180deg,#020617,#020617);border:1px solid #111827;border-radius:14px;padding:30px;transition:transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <div class="icon" style="width:42px;height:42px;border-radius:10px;background:#ef4444;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-weight:bold;">✨</div>
+        <h3 style="margin-bottom:10px;font-size:18px;">Pulido y Restauración</h3>
+        <p style="font-size:14px;color:#9ca3af;margin-bottom:15px;">Devolvemos el brillo original a la pintura eliminando rayones superficiales y oxidación.</p>
+        <ul style="list-style:none;margin-bottom:20px;padding:0;">
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Pulido profesional</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Corrección pintura</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Encerado</li>
+          <li style="font-size:13px;color:#9ca3af;margin-bottom:6px;">• Protección</li>
+        </ul>
+        <a href="#" style="color:#ef4444;font-size:13px;text-decoration:none;font-weight:bold; transition: color 0.3s; cursor:pointer;"onmouseover="this.style.color='#ff6666';"onmouseout="this.style.color='#ef4444';">Solicitar información →</a>
+      </div>
+    </div>
+  </section>
+  <!-- ====== CONTACTOS ====== -->
+  <section class="cta" style="max-width:900px;margin:80px auto;padding:40px;background:#0f172a;border:1px solid #1f2937;border-radius:12px;text-align:center;">
+    <h3 style="font-size:22px;margin-bottom:10px;">¿No encuentras el servicio que buscas?</h3>
+    <p style="color:#9ca3af;font-size:14px;line-height:1.6;">Contamos con un equipo capacitado para resolver cualquier problema mecánico, de chapa o pintura.<br>Contáctanos y te ofrecemos una solución personalizada.</p>
+    <a href="#Contacto" style="display:inline-block;margin-top:20px;padding:12px 28px;background:#ef4444;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold; cursor:pointer; transition: background-color 0.3s, transform 0.2s;"onmouseover="this.style.backgroundColor='#ff6666'; this.style.transform='scale(1.05)';"onmouseout="this.style.backgroundColor='#ef4444'; this.style.transform='scale(1)';">Contáctanos Ahora</a>
+  </section>
+  <section class="contact" style="max-width:1200px;margin:100px auto;padding:0 20px;" id="Contacto">
+    <div class="contact-header" style="text-align:center;margin-bottom:60px;">
+      <span style="color:#ef4444;font-size:13px;font-weight:bold;">Contacto</span>
+      <h2 style="font-size:34px;margin:10px 0;">Estamos Aquí para Ayudarte</h2>
+      <p style="color:#9ca3af;font-size:14px;">
+        ¿Tienes alguna pregunta o necesitas un presupuesto? Contáctanos y te responderemos lo antes posible.
+      </p>
+    </div>
+    <div class="contact-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;">
+      <!-- Información de Contacto -->
+      <div class="box" style="background:#0f172a;border:1px solid #1f2937;border-radius:12px;padding:30px; transition: transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+      <h3 style="margin-bottom:20px;">Información de Contacto</h3>
+      <div class="info-item" style="display:flex;gap:12px;margin-bottom:15px;color:#d1d5db;font-size:14px;">📧 asmarinocar@gmail.com</div>
+      <div class="info-item" style="display:flex;gap:12px;margin-bottom:15px;color:#d1d5db;font-size:14px;">📞 848 83 31 95</div>
+        <div class="info-item" style="display:flex;gap:12px;margin-bottom:15px;color:#d1d5db;font-size:14px;">
+          📍 Talleres Asmarino Car<br>
+          Pol. Ind. Landazábal, Calle 1, Nº 20<br>
+          31610 Villava, Navarra
+        </div>
+        <div class="schedule">
+          <p style="font-size:14px;margin-top:6px;"><strong>Lunes - Viernes:</strong> 8:00 - 18:00</p>
+          <p style="font-size:14px;margin-top:6px;"><strong>Sábado:</strong> 9:00 - 14:00</p>
+          <p style="font-size:14px;margin-top:6px;"><strong>Domingo:</strong> <span class="closed" style="color:#ef4444;">Cerrado</span></p>
+        </div>
+      </div>
+      <!-- Formulario de Contacto -->
+      <div class="box" style="background:#0f172a;border:1px solid #1f2937;border-radius:12px;padding:30px; transition: transform 0.3s, box-shadow 0.3s; cursor:pointer;"onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)';"onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        <h3 style="margin-bottom:20px;">Envíanos un Mensaje</h3>
+        <form name="Formulario_Asmarinocar" action="https://formsubmit.co/asmarinocar@gmail.com" method="POST" style="display:flex;flex-direction:column;gap:14px;">
+          <input type="text" name="text" placeholder="Nombre Completo *" required style="background:#020617;border:1px solid #1f2937;padding:12px;color:#fff;border-radius:6px;">
+          <input type="email" name="email" placeholder="Email *" required style="background:#020617;border:1px solid #1f2937;padding:12px;color:#fff;border-radius:6px;">
+          <input type="text" name="phone" placeholder="Teléfono" style="background:#020617;border:1px solid #1f2937;padding:12px;color:#fff;border-radius:6px;">
+          <textarea name="message" placeholder="Cuéntanos qué necesitas..." required style="background:#020617;border:1px solid #1f2937;padding:12px;color:#fff;border-radius:6px;min-height:120px;"></textarea>
+          <input type="submit" value="Enviar Mensaje →" style="margin-top:10px;background:#ef4444;border:none;padding:12px;color:#fff;font-weight:bold;border-radius:6px;cursor:pointer; transition: background-color 0.3s, transform 0.2s;"onmouseover="this.style.backgroundColor='#ff6666'; this.style.transform='scale(1.05)';"onmouseout="this.style.backgroundColor='#ef4444'; this.style.transform='scale(1)';">
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ====== MAPA DE UBICACIÓN ====== -->
+  <section class="map-section" style="max-width:1200px;margin:60px auto;padding:0 20px;">
+    <h3 style="text-align:center;font-size:24px;margin-bottom:20px;color:#ef4444;">Encuéntranos Aquí</h3>
+    <p style="text-align:center;font-size:14px;color:#9ca3af;margin-bottom:30px;">Talleres Asmarino Car - Villava, Navarra. ¡Obtén direcciones fácilmente!</p>
+    <div style="width:100%;height:400px;border-radius:12px;overflow:hidden;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.424184226002!2d-1.637367084597728!3d42.82394747916086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd501d0f5c2a2f9b%3A0x1c84e9a0c3d9e7b4!2sPol%C3%ADgono%20Industrial%20Landaz%C3%A1bal%2C%201%2C%2031610%20Villava%2C%20Navarra%2C%20Spain!5e0!3m2!1sen!2ses!4v1704471000000!5m2!1sen!2ses" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+  <div style="text-align:center;margin-top:30px;margin-bottom:50px;">
+    <a href="https://www.google.com/maps/dir/?api=1&destination=Talleres+Asmarino+Car,+Pol%C3%ADgono+Industrial+Landaz%C3%A1bal,+Calle+1,+20,+31610+Villava,+Navarra,+Spain" target="_blank" style="display:inline-block;padding:10px 20px;background:#ef4444;color:#fff;border-radius:6px;text-decoration:none;font-weight:bold;transition: background 0.3s, transform 0.2s;"onmouseover="this.style.background='#ff6666'; this.style.transform='scale(1.05)';"onmouseout="this.style.background='#ef4444'; this.style.transform='scale(1)';">Obtener Direcciones →</a>
+  </div>
+  <!-- ====== MENÚ INFERIOR ====== -->
+  <footer style="background:#020a16; color:white; padding:40px 20px 20px;">
+    
+    <div style="
+      max-width:1100px; 
+      margin:0 auto; 
+      display:flex; 
+      flex-wrap:wrap; 
+      gap:40px; 
+      justify-content:space-between;
+    ">
+
+      <div style="flex:1 1 260px; min-width:240px;">
+        <h2 style="font-size:26px; margin-bottom:10px; color:white;">Asmarino Car</h2>
+        <p style="font-size:14px; line-height:1.6; color:#e5e5e5;">
+          Taller mecánico especializado en chapa, pintura y mecánica general.
+          Tu vehículo en las mejores manos.
+        </p>
+      </div>
+
+      <div style="flex:1 1 180px; min-width:180px;">
+        <h3 style="font-size:16px; margin-bottom:10px; text-transform:uppercase; letter-spacing:0.05em; color:#ff3333;">
+          Servicios
+        </h3>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Mecánica General</li>
+          <li style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Chapa y Pintura</li>
+          <li style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Diagnosis</li>
+          <li style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Mantenimiento</li>
+        </ul>
+      </div>
+
+      <div style="flex:1 1 180px; min-width:180px;">
+        <h3 style="font-size:16px; margin-bottom:10px; text-transform:uppercase; letter-spacing:0.05em; color:#ff3333;">
+          Contacto
+        </h3>
+
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">
+          📧 asmarinocar@gmail.com
+        </div>
+
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">
+          📞 848 83 31 95
+        </div>
+
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">
+          📍 Pol. Ind. Landazábal, Calle 1, Nº 20, 31610<br>
+          Villava, Navarra
+        </div>
+      </div>
+
+      <div style="flex:1 1 180px; min-width:180px;">
+        <h3 style="font-size:16px; margin-bottom:10px; text-transform:uppercase; letter-spacing:0.05em; color:#ff3333;">
+          Horario
+        </h3>
+
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Lun - Vie: 8:00 - 18:00</div>
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Sábado: 9:00 - 14:00</div>
+        <div style="font-size:14px; margin-bottom:6px; color:#f5f5f5;">Domingo: Cerrado</div>
+      </div>
+
+    </div>
+
+    <div style="
+      max-width:1100px; 
+      margin:20px auto 0; 
+      padding-top:15px; 
+      border-top:1px solid rgba(255,255,255,0.1); 
+      display:flex; 
+      flex-direction:column; 
+      gap:5px; 
+      font-size:12px; 
+      color:#cccccc;
+    ">
+      <span>© 2025 Asmarino Car. Todos los derechos reservados.</span>
+      <span style="color:white; font-size:13px;">
+        Taller mecánico en Villava, Navarra | Chapa y pintura profesional
+      </span>
+    </div>
+
+  </footer>
+</body>
+</html>
